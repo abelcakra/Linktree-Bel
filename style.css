@@ -10,21 +10,20 @@ body {
   background-size: cover;
 }
 
-/* Wrapper halaman */
+
 .page {
-  min-height: 100vh;          /* setinggi layar */
+  min-height: 100vh;          
   display: flex;
-  justify-content: center;    /* center horizontal */
-  align-items: center;        /* ✅ center vertical */
-  padding: 20px 12px;         /* ruang aman di layar kecil */
+  justify-content: center;    
+  align-items: center;        
+  padding: 20px 12px;         
 }
 
 
-/* Card utama */
 .card {
   width: 100%;
   max-width: 400px;
-  background: rgba(138, 127, 127, 0.6);
+  background: rgba(170, 166, 166, 0.6);
   border-radius: 20px;
   padding: 100px 20px 16px;
   text-align: center;
@@ -70,7 +69,7 @@ h2 {
 .link {
   display: block;
   text-decoration: none;
-  background: #4d2128;
+  background: #742f3a;
   color: #fff;
   padding: 12px;
   border-radius: 999px; /* selalu bulat */
@@ -82,7 +81,7 @@ h2 {
 .link:hover {
   transform: translateY(-2px);
   box-shadow: 0 6px 15px rgba(0,0,0,0.15);
-  background: #ffd0d7;
+  background: #4d121b;
 }
 
 footer {
@@ -91,7 +90,6 @@ footer {
   color: #000000;
 }
 
-/* Responsif untuk layar kecil */
 @media (max-width: 360px) {
   .profil {
     width: 90px;
