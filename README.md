@@ -33,4 +33,4 @@ Linktree-Bel/
 ├── index.html
 ├── style.css
 ├── bg.jpg
-└── imgprof.jpeg
+└── bgprof.jpeg
